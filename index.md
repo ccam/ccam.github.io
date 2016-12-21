@@ -2,122 +2,89 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Note: Some of these are made using older tools. I will not update because there wouldn't be a gain. 
 
-[Link to another page](another-page).
+## [Alarm Clock](alarmClock/index.html)
+Code:
 
-There should be whitespace between paragraphs.
++ [html, view source](alarmClock/index.html)
++ [sass](alarmClock/css/main.scss)
++ [javascript](alarmClock/js/script.js)
+![screenshot](alarmClock/screen.png)
+This a simple alarm clock I made. It's 24 hours and I would like to make it 12 hours instead. I only used HTML, CSS, and Javascript to make this, no frameworks.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## [Apples](apples/index.html)
+Code: 
 
-# [](#header-1)Header 1
++ [html, view source](apples/index.html)
++ [sass](apples/css/main.scss)
++ No JS
+![screenshot](apples/screen.png)
+I saw this layout somewhere and wanted to recreate it. It doesn't do anything. It's just a mock, once I learn more about server side stuff I'd like to make it a full functioning page where you can plug it in and just change the CSS.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## [Business Card](businessCard/index.html)
+Code: 
 
-## [](#header-2)Header 2
++ [html, view source](businessCard/index.html)
++ [CSS](businessCard/styles.css)
++ [JS](businessCard/main.js)
+![screenshot](businessCard/screen.png)
+When I made this I was working at Fastenal. The horizontal version of this is what our business cards looked like. I got bored one day and made this.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## [Coming Soon Page](coming-soon/index.html)
+Code: 
 
-### [](#header-3)Header 3
++ [html, view source](coming-soon/index.html)
++ [CSS](coming-soon/css/main.css)
++ No JS
+![screenshot](coming-soon/screen.png)
+This is pretty much the same as the apples site. I think I saw this on a job application.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## [Diagonal Portfolio](diagonal-portfolio/src/index.html)
+Code: 
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
++ [html, view source](diagonal-portfolio/src/index.html)
++ [CSS](diagonal-portfolio/src/css/main.scss)
++ No JS
+![screenshot](diagonal-portfolio/screen.png)
+I found this on reddit [here.](https://stories.uplabs.com/can-you-code-this-ui-concept-9e4ba76b437e#.anazk8doj)
+ [More specifically](https://material.uplabs.com/posts/diagonallayout-library)
+It's just a mock up. I took the content and movie posters from [IMDB](http://www.imdb.com/name/nm0413168/?ref_=nmbio_bio_nm)
 
-#### [](#header-4)Header 4
+## [Fade To Black](fadeToBlack/index.html)
+Code: 
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
++ [html, view source](fadeToBlack/index.html)
++ [CSS](fadeToBlack/style.css)
++ No JS
+![screenshot](fadeToBlack/screen.png)
+This just fades the back ground from white to black revealing the text while playing Fade to Black by Metallica
 
-##### [](#header-5)Header 5
+## [Input Box](inputBox/index.html)
+Code: 
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
++ [html, view source](inputBox/index.html)
++ [CSS](inputBox/css/main.scss)
++ [JS](inputBox/script.js)
 
-###### [](#header-6)Header 6
+A screenshot wouldn't show anything useful, click the title to check it out.
+A simple input box that changes when you click to enter your text.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+## [National Bank AZ](national-bank-az/index.html)
+Code: 
 
-### There's a horizontal rule below this.
++ [html, view source](national-bank-az/index.html)
++ [CSS](national-bank-az/css/main.scss)
++ No JS
+![screenshot](national-bank-az/screen.png)
+Mock up of page I found on [Dribbble.](https://dribbble.com/shots/2388752-National-Bank-of-Arizona-Material-Design-Concept)
 
-* * *
+## [Title Change](title-change/index.html)
+Code: 
 
-### Here is an unordered list:
++ [html, view source](title-change/index.html)
++ [CSS](title-change/main.css)
++ [JS](title-change/script.js)
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+The h1 changes once the user scrolls to a nex section.
+Again a screenshot wouldn't show anything useful, click the title and check it out.

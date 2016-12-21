@@ -1,0 +1,8 @@
+_site
+.sass-cache
+Gemfile.lock
+*.gem
+Gemfile
+jekyll-theme-slate.gemspec
+.travis.yml
+node_modules

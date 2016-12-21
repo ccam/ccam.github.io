@@ -1,0 +1,10 @@
+@import url(reset.css);
+body {
+  background-color: #000;
+  font-family: monospace;
+  color: #32cd32; }
+
+#display {
+  font-size: 20em; }
+
+/*# sourceMappingURL=main.css.map */

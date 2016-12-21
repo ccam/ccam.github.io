@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Business Card and spinner</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <button class="hor">Horizontal</button>
+        <button class="vert">Vertical</button>
+        <button class="spin">Spin</button>
+
+        <div class="vcard">
+            <div class="top">
+                <img src="https://www.fastenal.com/static/images/logos/fastenal/fastenal-logo-blue-white.png" alt="Fastenal" class="title" />
+                <h2 class="slogan">Growth Through Customer Service</h2>
+            </div>
+
+            <div class="bottom">
+
+                 <img src="http://i.imgur.com/2segip4.jpg" alt="Employee Photo" class="vemployee" >
+                <p class="vname">Bob Jones <br/> Outside Sales</p>
+
+                <address class="vertical">1031 19th Street N </br> Bessemer, AL 35020</address>
+
+                <div class="vcontact">
+                    <span class="phone">Phone: (205) 429-8046</span> <br/>
+                    <span class="fax">Fax: (205) 426-8290</span> <br/>
+                    <span class="mobile">Mobile: (205) 123-4567</span> <br/>
+                    <span class="email">Email: bJones@fastenal.com</span>
+                </div>
+            </div>
+        </div> 
+        <!-- End vertical Card -->
+
+        <!-- Horizontal Card --> 
+        <div class="card hidden">
+            <div class="head">
+
+                <div class="item1">
+                    <img src="https://www.fastenal.com/static/images/logos/fastenal/fastenal-logo-blue-white.png" alt="Fastenal" class="title" />
+                    <h4 class="slogan">Growth Through Customer Service. </h4>
+                </div>
+
+                <div class="item2">
+                    <div class="QRcode">
+                        <img src="http://i.imgur.com/2segip4.jpg" alt="Employee Photo" class="hidden employee" >
+                        
+                        <img src='https://chart.googleapis.com/chart?cht=qr&chl=fastenal.com&chs=50x50&choe=UTF-8&chld=L|2' alt='' class="QR"> 
+                    </div>
+                    <a href="http://fastenal.com" target="_blank" class="site">fastenal.com</a>
+                </div>
+            </div>
+
+            <div class="body">
+
+                <p class="name">Bob Jones <br/> Outside Sales</p>
+
+                <address class="item3">1031 19th Street N </br> 
+                    Bessemer, AL 35020</address>
+
+                    <div class="item4">
+                        <span class="phone">P: (205) 429-8046</span> <br/>
+                        <span class="fax">F: (205) 426-8290</span> <br/>
+                        <span class="mobile">M: (205) 123-4567</span> <br/>
+                        <span class="email">E: bJones@fastenal.com</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        
+    </body>
+</html>

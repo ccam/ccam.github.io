@@ -1,5 +1,5 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
-show_downloads: true
+title: Mini Projects
+description: This is for all of the mini porject that arent big enough for a whole repo
+show_downloads: false
 google_analytics:
-theme: 
+theme: slate

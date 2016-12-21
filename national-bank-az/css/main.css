@@ -1,0 +1,77 @@
+@import url(reset.css);
+body {
+  background-color: #1e6b71; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+header {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: #1e6b71;
+  font-family: sans-serif;
+  color: #fff; }
+
+nav {
+  position: relative;
+  top: 15px;
+  left: 55%; }
+  nav li {
+    padding: 0 15px;
+    list-style: none;
+    display: inline; }
+  nav a {
+    text-decoration: none;
+    color: #fff; }
+
+.navItemOne {
+  position: relative;
+  top: 15px;
+  left: 15%; }
+
+.skyline {
+  height: 300px;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.cta {
+  background-color: #1e6b71;
+  height: 350px;
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+.left {
+  width: 45%;
+  margin: 50px 50px 0 50px;
+  font-family: sans-serif;
+  color: #fff; }
+  .left h3 {
+    font-size: 2em;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #fff; }
+  .left .viewJobs {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    background-color: #fafafa;
+    top: 50px;
+    width: 150px; }
+
+.right img {
+  position: relative;
+  top: 50px;
+  left: 150px;
+  height: auto;
+  width: 350px;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=main.css.map */

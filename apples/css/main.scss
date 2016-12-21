@@ -1,0 +1,64 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Domine:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body {
+	background: url('img/apple-bg.jpg');
+	font-family: 'Open Sans', sans-serif;
+}
+
+.box {
+	display: flex;
+	background-color: #fff;
+	
+	position: absolute;
+  	top: 50%;
+  	left: 30%;
+  	transform: translateY(-50%);
+
+	width: 500px;
+	height: 500px;
+
+	.signUp, .info {
+		width: 250px;
+		color: #7f0000;
+
+		h1 {
+		  font-size: 2em;
+		  font-family: 'Domine', serif;
+		  font-weight: 700;
+		  margin: 15px 15px 15px 60px;
+		  padding-top: 50px;
+		}
+
+		p {
+			margin: 15px 25px;
+			padding-top: 50px;
+		}
+		
+		form {
+			margin: 15px;
+			text-align: center;
+
+			input {
+				margin-bottom: 15px;
+			}
+
+			button {
+				background-color: #7f0000;
+				color: #fff;
+				border-radius: 5px;
+
+				margin: 15px;
+
+			}
+		}
+
+
+	}
+
+	.info {
+		background-color: #7f0000;
+		color: #fff;
+	}
+}

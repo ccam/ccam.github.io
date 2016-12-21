@@ -1,0 +1,142 @@
+//fonts 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+body {
+  background-color: #EBEBEB;
+}
+
+
+header {
+  background-image: url('../img/street.jpg');
+  background-size: cover;
+  color: #fff;
+  height: 55vh;
+  
+
+  .name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    margin: 0;
+    padding: 5vh 0 0 10vw;
+  }
+
+  .titles, .accomps {
+    color: #fff;
+    padding: 3vh 0 0 10vw;
+  }
+
+  .titles {
+    li {
+      display: inline;
+      background-color: rgba(221, 221, 221, 0.5);
+      border-radius: 15px;
+      padding: 5px 7px;
+    }
+  }
+
+  .accomps {
+    li {
+      display: inline;
+      padding: 1vw;
+    }
+  } 
+}
+
+.fabPicFlex {
+  display: flex;
+  justify-content: space-between;
+
+  .profilePic  {
+    border-radius: 50%;
+    z-index: 5;
+    margin: 5vh 0 0 5vw;
+  }
+  .follows {
+    
+    margin: 3vh 5vw 0 0;
+    z-index: 5;
+
+    p {
+      margin-right: 25vw;
+      z-index: 5;
+      color: #000;
+      position: relative;
+      top: 15vh;
+      right: 5vh;
+    }
+  }
+} 
+
+
+.followsFlex {
+  display: flex;
+
+}
+
+  .diagonal {
+    height: 25vh;
+    width: 102vw;
+    overflow: hidden;
+    background-color: #EBEBEB;
+    position: relative;
+    top: -10vh;
+    left: -2vw;
+    z-index: 2;
+    
+    transform:skew(0deg,-5deg);
+    -ms-transform:skew(0deg,-5deg);
+    -webkit-transform:skew(0deg,-5deg);
+    box-shadow:  inset 10px 5px 5px #999;
+  }
+
+  // Starting main section 
+  .main {
+    z-index: 5;
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    top: -15vh;
+
+    .about {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .movies {  
+    padding-bottom: 20px;
+    h3 {
+      text-align: center;
+    }
+
+    .movieFlex {
+      padding-bottom: 3vh;
+      display: flex;
+      background-color: #a1a1a1;
+      
+      box-shadow: 0px 5px 10px #020202;
+      overflow: hidden;
+      
+      .one {
+        padding-left: 5vw;
+      }
+      .one, .two, .three, .four {
+        text-align: center;
+        margin: 0 1vw;
+      }  
+
+
+      h4 {
+        text-align: center;
+      }
+    }
+
+  }

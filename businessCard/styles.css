@@ -1,0 +1,132 @@
+* { margin: 0; padding: 0; } 
+/* reset it bruv\
+*  this is slow. I usually have a reset.css I import but
+*  this is a short example. */
+
+.hidden { /* To hide the opposite card */
+  display: none;
+}
+
+body {
+  background: #222;
+}
+
+button {
+  border-radius: 5%;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Styles for Vertical Card */
+.vcard {
+  height: 450px;
+  /* change height and widths */
+  width: 300px;
+  margin-bottom: 500px;
+  background: #ddd;
+  margin: 15px auto;
+}
+
+.top {
+  background-color: #0C5A9E;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  padding: 5px 0 0 0;
+}
+.top .vtitle {
+  height: 50px;
+  width: 300px;
+}
+.top .vslogan {
+  /* Growth Through Customer Service */
+  padding: 5px 0 0 0;
+}
+
+/* End .top class */
+.vname, .vertical, .vcontact {
+  font-family: Helvetica, sans-serif;
+  font-style: bold;
+  text-align: center;
+  margin: 25px auto 0 auto;
+}
+
+.vemployee {
+  height: 100px;
+  width: 100px;
+  margin: 5px 100px;
+}
+
+/* End styles for vertical card */
+
+/*Horizontal Card */
+.card {
+  background-color: #ddd;
+  width: 400px;
+  height: 200px;
+  margin: 50px 0 0 35%;
+}
+
+.head {
+  background-color: #0C5A9E;
+  color: #fff;
+  font-family: Helvetica;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.title {
+  height: 50px;
+}
+
+.slogan {
+  margin: 10px 0 0 5px;
+}
+
+.item1 {
+  order: 1;
+}
+
+.item2 {
+  order: 2;
+}
+
+.item3 {
+  /* for the address */
+  order: 3;
+  margin: 30px 0 0 5px;
+}
+
+.item4 {
+  /* for contact info */
+  order: 4;
+  text-align: right;
+  margin: -73px 5px 0 0;
+}
+
+.QRcode {
+  text-align: right;
+  margin: 10px 18px 0 0;
+}
+
+.employee {
+  height: 50px;
+  width: 50px;
+}
+
+.site {
+  text-align: right;
+  margin: 0 0 0 25px;
+}
+
+.name {
+  text-align: center;
+  margin: 10px auto;
+  font-family: Helvetica;
+  font-style: bold;
+}
